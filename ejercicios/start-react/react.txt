@@ -1,0 +1,28 @@
+React - librería open sourse desarrollada por facebook 
+	para crear interfaces de usuarios.
+	
+	Permite crear single page apps SPA
+	
+	VIRTUAL DOM - estructura que se encarga de renderizar granularmente 
+	los nodos, dependiendo de los cambios de estado de la aplicación,
+	realizando la menor cantidad posible de modificaciones al DOM, para
+	mantener la interfaz actualizada
+	
+	COMO FUNCIONA EL VIRTUAL DOM - cada vez que sucede una acción, react
+	se encarga de tres cosas : 
+	1- propaga los efectos colaterales de esas acciones en el VIRTUAL DOM
+	2- análiza las diferencias (diff) para ver aué sub-árboles 
+	han cambiado en relación a la "versión anterior"
+	3- por últimoo realiza una "reconciliación", donde actualiza el DOM
+	con el resultado de diff
+
+	En el mundo React a los parametros de los componentes los denominamos PROPIEDADES (props)
+	
+	Los componentes normalmente los definimos como funciones puras
+
+	existe un dom paralelo donde se encuentran todas las modificaciones
+	ReactDOM
+	
+JSX -	es una extensión al lenguage Javascrip, que agrega estructuras sintácticas que nos permiten 
+	trabajar más facilmente y de una manera más natural con 	
+	código de react.
